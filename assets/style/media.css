@@ -1,0 +1,117 @@
+@media (max-width:1199.99px) {
+    .aboute__me-content {
+        gap: 30px;
+
+    }
+
+    .aboute__me-content {
+        max-width: 100%;
+    }
+
+}
+
+
+
+
+@media (max-width:991.99px) {
+    .nav__list-link {
+        font-size: 20px;
+        margin-left: 54px;
+    }
+
+    .header__content {
+        min-height: 630px;
+        transition: .5s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .header__content-title {
+        font-size: 35px;
+        text-align: center;
+        transition: .5s;
+    }
+    .aboute__me-content{
+        flex-direction: column;
+    }
+    .portfolio__content{
+        justify-content: center;
+    }
+}
+
+@media (max-width:767.99px) {
+    .nav__logo {
+        font-size: 32px;
+    }
+
+    .nav {
+        position: relative;
+    }
+
+    .nav__list {
+        position: absolute;
+        flex-direction: column;
+        background-color: black;
+        top: -300px;
+        padding: 15px;
+        gap: 10px;
+        right: 0;
+        transition: .5s;
+    }
+
+    .nav__menu:hover .nav__list {
+
+        top: 100%;
+    }
+
+    .nav__list-link {
+        margin-left: 0;
+    }
+
+    .nav__menu-btn {
+        display: flex;
+    }
+
+    .header__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 550px;
+        transition: .5s;
+    }
+
+    .header__content-title {
+        font-size: 29px;
+        text-align: center;
+        transition: .5s;
+    }
+    .aboute__me-text-title{
+        font-size: 20px;
+    }
+    .aboute__me-text{
+        font-size: 14px;
+    }
+    
+    
+    .footer__content{
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:575.99px) {
+    .header__content-title {
+        font-size: 25px;
+        transition: .5s;
+    }
+}
